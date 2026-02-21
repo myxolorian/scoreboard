@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: "DigitalScoreboard";
+    src: url("digital-7.ttf");
+}
+
+.container1{
+    width: 1000px;
+    margin: 130px auto;
+    background: #001d3d;
+    padding: 30px;
+    height: 600px;
+    border-radius: 15px;
+
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #003566;
+    height: 600px;
+    border-radius: 15px;
+    
+}
+
+.home-container{
+
+}
+
+.guest-container{
+
+}
+
+.Home-txt{
+    font-size: 75px;
+    color: white;
+}
+
+.Home-score{
+    font-size: 120px;
+    font-family: "DigitalScoreboard";
+    color: #bf0603;
+    background: black;
+    border-radius: 15px;
+    font-weight: lighter;
+    padding: 15px 0;
+}
+
+.Guest-txt{
+    font-size: 75px;
+    color: white;
+}
+
+.Guest-score{
+    font-size: 120px;
+    font-family: "DigitalScoreboard";
+    color: #bf0603;
+    background: black;
+    border-radius: 15px;
+    font-weight: lighter;
+    padding: 15px 0;
+}
+
+.Vs{
+    padding: 190px 0;
+    font-size: 75px;
+}
+
+button{
+    background: #003566;
+    border: 1px solid white;
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    font-size: 20px;
+    font-family: "DigitalScoreboard";
+    border-radius: 10px;
+}
+
+
